@@ -14,7 +14,14 @@ import static com.shtruz.externalfinalscounter.mapping.Mappings.*;
 
 public class ChatMessageParser {
     private final ExternalFinalsCounter externalFinalsCounter;
-    private static final String[] KILL_MESSAGES = { 
+    private static final String[] KILL_MESSAGES = {
+        " was hit by a flying bunny by ",
+        " was hit by a bunny thrown by ",
+        " was turned into a carrot by ",
+        " was hit by a carrot from ",
+        " was bitten by a bunny from ",
+        " was magically turned into a bunny by ",
+        " was fed to a bunny by ",
         " was shot and killed by ",
         " was snowballed to death by ",
         " was killed by ",
